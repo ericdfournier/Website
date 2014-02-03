@@ -17,11 +17,11 @@ DEPENDENCIES:
 
 LINKS:
 
-- website: wwww.ericdfournier.com
-- template distributor: themeforest.net 
+- Website: wwww.ericdfournier.com
+- Template Distributor: themeforest.net 
 
 DETAILS:
 
 - Packaged materials for my personal website hosted as a free-tier google app engine app under the domain www.ericdfournier.com
-- Legacy versions are listed in the directory names
-- Template name: Myway - Onepage Bootstrap Parallax Retina Template 
+- Legacy versions are contained in separate directories and numbered by version
+- Template name: "Myway - Onepage Bootstrap Parallax Retina Template"
