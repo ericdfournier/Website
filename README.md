@@ -2,7 +2,7 @@ DESCRIPTION:
 
 - Personal website of Eric Daniel Fournier
 
-PLATFORM:
+DEVELOPMENT PLATFORM:
 
 - Operating System: Mac OS X Version: 10.0.1 Build: 13B42
 - Browser: Google Chrome Version: 32.0.1700.102
@@ -15,7 +15,7 @@ DEPENDENCIES:
 - Google App Engine Launcher ( https://developers.google.com/appengine/downloads )
 - Python 2.7 ( www.python.org/download/releases/2.7/ )
 
-LINKS:
+PERMANENT LINKS:
 
 - Website: wwww.ericdfournier.com
 - Template Distributor: themeforest.net 
