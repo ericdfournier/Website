@@ -13,7 +13,7 @@ DEPENDENCIES:
 - Bootstrap 2.3.2 ( getbootstrap.com/2.3.2 )
 - Font Awesome 4.0.3 ( fontawesome.github.io/Font-Awesome/ )
 - Google App Engine Launcher ( https://developers.google.com/appengine/downloads )
-- Python 2.7 ( www.python.org/download/releases/2.7/ )
+- Go 1.4 ( https://golang.org/doc/go1.4 )
 
 PERMANENT LINKS:
 
