@@ -1,7 +1,8 @@
 application: ericdanielfournier
 version: 1
-runtime: go
-api_version: go1
+runtime: python27
+api_version: 1
+threadsafe: true
 
 handlers:
 - url: /(.*\.(otf|wotf|ttf|svg|eot|php|pdf|gif|png|jpg|jpeg|ico|js|css))
@@ -12,5 +13,5 @@ handlers:
   static_files: index.html
   upload: index.html
 
-- url: /.*
-  script: _go_app
+- url: .*
+  script: main.application
