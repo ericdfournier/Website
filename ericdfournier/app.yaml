@@ -4,9 +4,9 @@ runtime: go
 api_version: go1
 
 handlers:
-- url: /(.*\.(otf|wotf|ttf|svg|eot|php|pdf|gif|png|jpg|jpeg|ico|js|css|map))
+- url: /(.*\.(otf|wotf|woff|ttf|svg|eot|php|pdf|gif|png|jpg|jpeg|ico|js|css|map))
   static_files: \1
-  upload: (.*\.(otf|wotf|ttf|svg|eot|php|pdf|gif|png|jpg|jpeg|ico|js|css|map))
+  upload: (.*\.(otf|wotf|woff|ttf|svg|eot|php|pdf|gif|png|jpg|jpeg|ico|js|css|map))
   
 - url: /
   static_files: index.html

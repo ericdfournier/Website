@@ -1,188 +1,671 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="shortcut icon" href="img/favicon.ico"> 
-	<link rel="stylesheet" href="css/vendor/fluidbox.min.css">
-	<link rel="stylesheet" href="css/main.css">
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Personal Website of Eric Daniel Fournier</title>
+	<meta name="description" content="Personal Website">
+	<meta name="author" content="Eric Daniel Fournier">
 
-	<title>Eric Daniel Fournier</title>
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="css/default.css">
+   <link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.png" >
 
 </head>
+
 <body>
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Research</a></li>
+            <li><a class="smoothscroll" href="#testimonials">Interests</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">Eric Daniel Fournier</h1>
+            <h3>I'm a Los Angeles based <span>Environnmental Information Scientist</span> and <span>GIS Software Engineer</span> working on interesting problems related to water infrastructure, ecosystem services, and life cycle assessment. Start scrolling and learn more about me. </h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://www.github.com/ericdfournier"><i class="fa fa-github"></i></a></li>
+               <li><a href="https://www.google.com/+EricFournier_edf"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/eric-fournier-17b26324"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+             <br> <br> <br> <br> <br> <br> <br> <br>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>
+                I have spent the majority of my life working to understand the many ways in which humans and their environment interact to effect one another. In my experience, the various different types of problems which arise in this domain can be extremely difficult to understand. This is due not only to their multiple and sometimes interelated causes but also to their often time delayed effects. 
+            </p>  
+            <p>
+                I believe that as a civilization we are entering a new and interesting period; one wherein the pursuit of a deeper understanding of these types of human-environment interactions will be elevated from its current status as a mere academic diversion to that of a wide reaching socio-economic mandate. I for one am extremely excited to see what this change will enable us to achieve. My only hope is to make a meaninful contribution in the process. 
+            </p>
+
+            <div class="row">
+
+               <div class="columns download">
+                  <p>
+                     <a href="docs/Fournier_Resume.pdf" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>University of California at Santa Barbara, <p>Bren School of Environmental Science and Management</p></h3>
+                  <p class="info">Doctor of Philosphy in Environmental Science <span>&bull;</span> <em class="date">June 2015</em></p>
+
+                  <p>
+                  My PhD dissertation work involved the study of municipal freshwater reuse systems that involve artificial groundwater recharge components. My research discovered that the net water savings associated with this type of water reuse are highly sensitive to local geographic context. This sensitivity is due to the embedded water consumption associated with the production of the electricity that is required to operate the large pumps used by the aritifical recharge systems. This project involved the development of a novel parallel genetic algorithm for the location of optimal corridors relative to multiple spatially distributed costs. My PhD committee inlcuded Dr. Arturo Keller (Chair), Dr. Roland Geyer, Dr. James Frew.  
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>University of California at Santa Barbara</h3>
+                  <p class="info">Master of Arts in Geography <span>&bull;</span> <em class="date">June 2014</em></p>
+
+                  <p>
+                  My MA in Geography focused on the use of geostatistical techniques to develop synethic geographic variables that could be used to systematically test and validate the performance of stochastic spatial optimization algorithms. My masters committee included Dr. James Frew (Chair) Dr. Keith Clarke, and Dr. Phaedon Kyriakidis. 
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+             
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Yale University, <p>School of Foresty and Environmental Studies</p></h3>
+                  <p class="info">Master of Environmental Science <span>&bull;</span> <em class="date">June 2010</em></p>
+
+                  <p>
+                  My MESc involved intensive study in three main areas: the application of geographic information systems to environmental science, life cycle assessment theory and implementation, and the principles of green chemistry and green engineering. My masters thesis advisors included Dr. Paul Anastas and Dr. Julie Zimmerman. 
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+             
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Bucknell University</h3>
+                  <p class="info">Bachelor of Science in Environmental Science <span>&bull;</span> <em class="date">June 2008</em></p>
+
+                  <p>
+                  During my undergraduate years I did research in analytical environmental chemistry on the application of various iron rich clay species to the remediation of pesticide derived groundwater pollutants. I also undertook an honors thesis investigating the energy consumption footprint of the Bucknell University campus buildings and facilities. My honors thesis committee included Dr. Molly McGuire (Chair), Dr. Peter Slaughter, and Mr. James Knight.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Work</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Teaching Assistant</h3>
+                  <p class="info">Graduate Level <span>&bull;</span> <em class="date">March 2009 - 2015</em></p>
+
+                  <p>
+                      While at Yale, I assisted Dr. Charles Dana Tomlin in the teaching of both raster and vector based GIS courses. At UCSB, I also assisted Dr. James Frew in the teaching of similar graduate level GIS courses at the Bren School of Environmental Science and Management. Additionally, also while at UCSB, I assisted in the teaching of graduate level courses in Lanscape Ecology and Biogeochemistry. 
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Research Scientist</h3>
+                  <p class="info"> Spatial Analysis  <span>&bull;</span> <em class="date"> September 2011 -  2014</em></p>
+
+                  <p>
+                    While at UCSB, I worked as a research scientist on several different projects funded by agencies such as the National Science Foundation, the Electric Power Research Institute, and the California Energy Commission. The work which I did involving these projects focused on the application of advanced computational techniques to complicated spatial analysis problems. 
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <p>
+                Over the many years that I have spent in the classroom I have accumulated a number of useful skills relevant to the design, execution, and documentation of advanced science research projects. Listed below are a number of tools that I have developed a facility with which involve the use computers for the collection, analysis, and visualization of environmentally relevant data.  
+            </p>
+
+				<div class="bars">
+
+				   <ul class="skills">
+					    <li><span class="bar-expand photoshop"></span><em>Systems Programming: Go | C | C++</em </li>
+                        <li><span class="bar-expand css"></span><em>Scripting: Unix Shell | Python</em></li>
+                        <li><span class="bar-expand illustrator"></span><em>Numerical Computation: MATLAB | OCTAVE | R</em></li>
+						<li><span class="bar-expand wordpress"></span><em>GIS: ArcGIS | QGIS | GRASS | ERDAS | ENVI </em></li>
+						<li><span class="bar-expand css"></span><em>Databases: POSTGRES | PostGIS | MYSQL</em></li>
+						<li><span class="bar-expand html5"></span><em>Web Development: HTML | CSS | CARTOCSS </em></li>
+                        <li><span class="bar-expand jquery"></span><em>Typesetting: LaTEX | ADOBE CS</em></li>
+					</ul>
+
+				</div><!-- end skill-bars -->
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Check Out Some of my research publications</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-thirds s-bgrid-halves cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/portfolio/modal/dissertation_m.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>PhD Dissertation</h5>
+                              <p>Doctor of Philosphy in Environmental Science</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="images/portfolio/modal/env_mgmt_2014_m.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Optimizing Portfolios of Ecosystem Services</h5>
+                              <p>Ecosystem Services, Spatial Optimization, GIS, InVEST</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="images/portfolio/modal/est_2016_m.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Estimating Net Energy-Water Usage Efficiency</h5>
+                              <p>Energy-Water Nexus, Corridor Location Planning, GIS, Shortest Path, Water Reuse</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="">
+                        <img alt="" src="images/portfolio/modal/lang_2007_m.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Redox Chemistry of Reduced Ferrugenous Clays</h5>
+                              <p>Redox Chemistry, FTIR, Smectite Clays, Atrazine, Colloids </p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-05" title="">
+                        <img alt="" src="images/portfolio/modal/env_pln_2015_m.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Multi-Objective Corridor Location Problem</h5>
+                              <p>Corridor Location Problem, Shortest Path, Genetic Algorithm, MOGADOR</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-06" title="">
+                        <img alt="" src="images/portfolio/modal/cec_2014_m.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Estimating Statewide Rooftop Solar Power Output</h5>
+                              <p>Spatial Statistics, Solar Photovoltaics, California Energy Commission, Sun to Wheels</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/dissertation.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>PhD Dissertation</h4>
+			      <p> My PhD dissertation provided an in depth investigation of net energy-water usage efficiency of municipal wastewater reuse involving artificial groundwater recharge for five case study regions within the state of California.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Academic, Research, Water, Energy, GIS</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/ericdfournier/Dissertation/dissertation.pdf">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/env_mgmt_2014.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Ecosystem Services</h4>
+			      <p> A paper published in the Journal Environmental Management describing an effort to locate the placement of fracking wells within a natural landscape such that the impact to a portfolio of ecosystem services was minimized. </p>
+               <span class="categories"><i class="fa fa-tag"></i>Ecosystem Services, Spatial Optimization, GIS, InVEST</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.sciencedirect.com/science/article/pii/S0301479715001474">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/est_2016.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Calculating Net Energy-Water Usage Efficiency</h4>
+			      <p> The major application paper coming out the work done for my dissertation was published in the Journal of Environmental Science and Technology. </p>
+               <span class="categories"><i class="fa fa-tag"></i>Energy-Water Nexus, Corridor Location Planning, GIS, Shortest Path, Water Reuse</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://pubs.acs.org/doi/abs/10.1021/acs.est.5b04465">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/lang_2007.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Describing Colloid Surface Chemistry</h4>
+			      <p> This is a paper that my undergraduate research group published in the analytical chemistry journal Langmuir. The paper discusses findings regarding the structural behavior of a family of iron rich clays under various reduction-oxidation conditions.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Redox Chemistry, FTIR, Smectite Clays, Atrazine, Colloids</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://pubs.acs.org/doi/abs/10.1021/la062467e">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-04 End -->
+
+         <div id="modal-05" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/env_pln_2015.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Multi-Objective Corridor Location Problem</h4>
+			      <p>This paper describes some theoretical contributions that I made towards the improvment of a genetic algorithm for the multi-objective corridor location problem.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Corridor Location Problem, Shortest Path, Genetic Algorithm, MOGADOR</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://epb.sagepub.com/content/early/2015/11/30/0265813515618562.abstract">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-05 End -->
+
+         <div id="modal-06" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/cec_2014.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Estimating Statewide Rooftop Solar Power Output</h4>
+			      <p> This small grant research project sought to determine if 100% of the usable rooftop area within the state of California were outfitted with solar PV panels whether the quantity of electricity produced within a given year would effectively offset the quantity of energy consumed in that period of time by the state's automotive fleet. </p>
+               <span class="categories"><i class="fa fa-tag"></i>patial Statistics, Solar Photovoltaics, California Energy Commission, Sun to Wheels</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://pubs.acs.org/doi/abs/10.1021/es302959h">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-06 End -->
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+
+   <!-- Call-To-Action Section
+   ================================================== -->
+   <section id="call-to-action">
+
+      <div class="row">
+          
+          <div class="two columns header-col">
+              <h1></h1>
+          </div>
+
+         <div class="seven columns">
+
+            <h2><a href="http://blog.tessamendez.com"> Visit My Girlfriend's Blog!</a></h2>
+            <p> After I finished my PhD in Santa Barbara, my girlfriend, Tessa Mendez, and I went on a six month, 17,000 mile, overland roadtrip throughout North America. While we were on the road she did an amazing job documenting our experiences. Have a look at her blog if you are interested in learning more about the places we visited and the types of things that we did on our travels.</p>
+
+         </div>
+
+         <div class="three columns action">
+
+            <a href="http://blog.tessamendez.com" class="button">Visit the Blog</a>
+
+         </div>
+
+      </div>
+
+   </section> <!-- Call-To-Action Section End-->
+
+
+   <!-- Testimonials Section
+   ================================================== -->
+   <section id="testimonials">
+
+      <div class="text-container">
+
+         <div class="row">
+
+            <div class="one column header-col">
+
+               <h1><span>Personal Interests</span></h1>
+
+            </div>
+
+            <div class="ten columns flex-container">
+
+               <div class="flexslider">
+
+                  <ul class="slides">
+
+                        <blockquote>
+                           <p>
+                                That man is the richest, <br> whose pleasures are the cheapest.
+                           </p>
+                           <cite>Henry David Thoreau <br> <br> <br>
+                            <h5>I think Thoreau may have been onto something here, because I most enjoy doing activies that allow me to physcially engage with the outdoors without spending too much money. Surfing, diving, running, cycling, and playing soccer are all among these.</h5></cite>
+                        </blockquote>
+
+                  </ul>
+
+               </div> <!-- div.flexslider ends -->
+
+            </div> <!-- div.flex-container ends -->
+
+         </div> <!-- row ends -->
+
+       </div>  <!-- text-container ends -->
+
+   </section> <!-- Testimonials Section End-->
+
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+         <div class="row section-head">
+
+            <div class="two columns header-col">
+
+                <h1>
+                    <span>Get In Touch</span>
+                </h1>
+                
+             </div>
+             
+             <div class="ten columns main-col">
+             
+                  <p class="lead">
+                      Please feel free to send me a note if your have an interesting project or employment opportunity that you think I might be a good fit for. I'm currently looking for work that would be based out of the Los Angeles area yet may involve periodic domestic or international travel. 
+                  </p>
+                 
+             </div>
+
+         </div>
+       
+       <div class="row">
+           
+            <div class="eight columns centered">
+                 
+                 <p> 
+                    <h4> Address </h4>
+				    Carlson Park <br> 
+                    South Motor Avenue<br>
+                    Culver City, CA 90232 US <br>
+                 </p>
+       
+                    <p>
+                        <h4> Email </h4>
+                        me at ericdfournier dot com <br> <br> <br>
+                    </p>
+       
+              </div>
+       
+       </div>
+              
+           <div style="map">
+               
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52914.167201752!2d-118.43079020261591!3d34.01473397001131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2ba20d5f12145%3A0x32bc8ec38c21cf30!2sCarlson+Park%2C+Culver+City%2C+CA!5e0!3m2!1sen!2sus!4v1456763471120" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+               
+           </div>
+           
     
-	<header>
+   </section> <!-- Contact Section End-->
+       
+   <!-- footer
+   ================================================== -->
+   <footer>
 
-		<div id="logo-container">
-			<div id="logo"><a href="/">Eric Daniel Fournier</a></div>
-			<div id="subtitle">Welcome to my personal website</div>
-		</div>
-		
- 		<!-- <nav>
-			<ul>
-				<li><a href="mailto:me@ericdfournier.com" class="bordered">Email</a></li>
-				<li><a href="https://github.com/ericdfournier" class="bordered">GitHub</a></li>
-				<li><a href="https://www.flickr.com/photos/ericdfournier/" class="bordered">Flickr</a></li>
-				<li><a href="https://www.facebook.com/ericdfournier" class="bordered">Facebook</a></li>
-			</ul>
-		</nav> -->
+      <div class="row">
 
-	</header>
+         <div class="twelve columns">
 
-	<div id="content">
+            <ul class="social-links">
+               <li><a href="https://www.github.com/ericdfournier"><i class="fa fa-github"></i></a></li>
+               <li><a href="https://www.google.com/+EricFournier_edf"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/eric-fournier-17b26324"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
 
-		<section class="intro">
-			<h1> 
-				<script language="JavaScript">
-					<!--
-					var strings = ["Simplicity is Complicated", "Information is Entropy", "Biology is Computation", "Order Begets Chaos", "Mathematics is Metaphor", "A Scientist Rebels", "Imagination is Exploration", "Ideas have Aesthetics", "Humor is Benign Violation"]
-					var randomIndex = Math.floor(Math.random() * strings.length);
-					var randomString = strings[randomIndex];
-					document.write(randomString);
-					-->
-				</script>			
-			</h1>
-			<p>
-				I'm glad you made it. My name is Eric. I am a scientist. I study the earth's capability to support human life. I chose to do this partly because I am a human - who is alive - and partly because this capability appears to be in decline. This choice seemed logical enough.
-			</p>
-		</section>
+            <ul class="copyright">
+               <li>&copy; Copyright 2016 Eric Daniel Fournier</li>
+               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
+            </ul>
 
-		<section class="row">
-			<div class="col-full">
-				<h2>Background</h2>
-				<p>
-					I have a B.S. in <a href="http://en.wikipedia.org/wiki/Environmental_science">environmental science</a> from <a href="http://www.bucknell.edu">Bucknell</a>, an M.S. in <a href="http://en.wikipedia.org/wiki/Environmental_science">environmental science</a> from <a href="http://environment.yale.edu">Yale</a>, an M.A. in <a href="http://en.wikipedia.org/wiki/Geography">geography</a>, and a Ph.D. in <a href="http://en.wikipedia.org/wiki/Ecoinformatics">ecoinformatics</a> from <a href="http://www.ucsb.edu">UCSB</a>. In general though, I am pretty knowledgable when it comes to the use of <a href="http://en.wikipedia.org/wiki/Geographic_information_system">geographic information software</a>, the <a href="http://en.wikipedia.org/wiki/Computer_simulation">numerical modeling</a> of <a href="http://en.wikipedia.org/wiki/Dynamical_system">dynamical natural systems</a>, and big picture concepts related to <a href="http://www.uni-kiel.de/ecology/users/fmueller/salzau2006/studentpages/Human_Environmental_Interactions/index.html">human-environment interactions</a>. For those who are somewhat more visually inclined: this means that I spend most of my time working in the green and purple parts of this diagram. </p>
-				<p>
-					<a href="img/science.png" rel="lightbox" class="col-2"><img src="img/science.png"></a>
-				</p>
-			</div>
-		</section>
-		
-		<section class="row">
-			<div class="col-full">
-				<h2>Research</h2>
-				<p>
-					For the last few years I have done a considerable amount of work in the area of <a href="https://ideas.repec.org/a/pio/envirb/v35y2008i1p148-168.html">corridor location planning</a>. This basically just involves devising techniques to rapidly deduce the shortest path between two points positioned within a space characterized by multiple and continuously non-uniform costs. The specific approach that I am developing to solve this problem is pretty cool in that it harnesses the power of <a href="http://www.americanscientist.org/issues/id.3301,y.0,no.,content.true,page.3,css.print/issue.aspx">random walks</a>. These are interesting mathematical processes that show up in a surprisingly large number of contexts.				
-				</p>
-				<p>
-					<div class="photo-grid">
-						<a href="img/random.png" rel="lightbox" class="col-1"><img src="img/random.png"></a>
-					</div>
-				</p>
-			</div>
-		</section>
-		
-		<section class="row">
-			<div class="col-full">
-				<h2>Publications</h2>
-				<p>
-					When you're in the academic world, people put a lot of emphasis on the rate at which you can produce publications as well as the weight of the journals in which those publications appear. My attitude is somewhat different. I really am only interested in this type of scholarly writing in the extent to which it introduces creative new ideas that expand peoples' minds and potentially improve their lives. One must be both conscious of as well as cautious with the ways in which they allow this exercise to inform their definition of self worth. All that being said, here are some links to publications in which I have been involved. These are provided primarily to give those of you who are more technically inclined the opportunity to get a better understanding of the work which I do.  		
-				</p>
-				<p>
-					<div class="photo-grid">
-                        <a href="img/env_pln_2015.jpg" rel="lightbox" class="col-2"><img src="img/env_pln_2015sm.jpg"></a>
-						<a href="img/env_mgmt_2014.jpg" rel="lightbox" class="col-2"><img src="img/env_mgmt_2014sm.jpg"></a>
-						<a href="img/lang_2007.jpg" rel="lightbox" class="col-2"><img src="img/lang_2007sm.jpg"></a>
-                        <a href="img/dissertation.jpg" rel="lightbox" class="col-2"><img src="img/dissertation.jpg"></a>
-				    </div>
-				</p>
-                <p>
-                    <a href="docs/dissertation.pdf" download="Fournier_UCSB_Dissertation_2015.pdf">Download Dissertation PDF</a>
-                </p>
-			</div>
-		</section>
-		
-		<section class="row">
-			<div class="col-full">
-				<h2>Interests</h2>
-				<p>
-					I suppose like most people I do lots of different things. I really like to surf. So, if there are waves, I usually surf. I also really like to play soccer. So, if there are no waves, I usually play soccer. Probably also like most people, I really like to travel. But traveling tends to cost a lot of money. I don't really make much money. But most of the time that is ok. I've found that if you don't spend all your time making money then you have lots of time left over to do other things - at least things that don't cost too much money - like surfing or playing soccer. I've also never owned a car. So, if I need to get somewhere, I usually ride my bike. Below is a series of videos about a guy that cycled from Alaska to Argentina. I plan to do the same one day. 
-				</p>
-				<p>
-					<iframe width="100%" height="480" src="https://www.youtube.com/embed/G2Xrutl8vSU?list=PLvG2B1OcxZ8JNgSmcir6yM5uTBGp99yk8" frameborder="0" allowfullscreen></iframe>				
-				</p>
-			</div>
-		</section>
-		
-		<section class="row">
-			<div class="col-full">
-				<h2>Music</h2>
-				<p>
-					I spend a lot of time listening to music. For the last couple of years I've been putting together a weekly playlist called the Friday Rare Grooves. Here's the entire collection in one place.  
-				</p>
-				<iframe width="100%" height="480" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/79000394&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>			</div>
-		</section>
+         </div>
 
-		<section class="row">
-			<div class="col-full">
-			<h2>Photos</h2>
-			<p> 
-				These are provided in case anyone is in need of a humorous photo of me to be used for a formal occasion or some other official business.
-			</p>
-				<div class="photo-grid">
-					<a href="img/1.jpg" rel="lightbox" class="col-2"><img src="img/1sm.jpg"></a>
-					<a href="img/2.jpg" rel="lightbox" class="col-2"><img src="img/2sm.jpg"></a>
-					<a href="img/3.jpg" rel="lightbox" class="col-1"><img src="img/3sm.jpg"></a>
-					<a href="img/4.jpg" rel="lightbox" class="col-2"><img src="img/4sm.jpg"></a>
-					<a href="img/5.jpg" rel="lightbox" class="col-2"><img src="img/5sm.jpg"></a>
-					<a href="img/6.jpg" rel="lightbox" class="col-2"><img src="img/6sm.jpg"></a>
-					<a href="img/7.jpg" rel="lightbox" class="col-2"><img src="img/7sm.jpg"></a>
-				</div>
-			</div>
-		</section>
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
 
+      </div>
 
-		<section class="row">
-			<div class="col">
-				<h2>Contact</h2>
-				<p>
-					Want to tell me something, send an email to: me at ericdfournier dot com</a>.
-				</p>
-			</div>
-			<div class="col">
-				<h2>Follow me</h2>
-				<p>
-					I am on <a href="https://github.com/ericdfournier">GitHub</a>, <a href="https://www.flickr.com/photos/ericdfournier/">Flickr</a> and <a href="https://www.facebook.com/ericdfournier">Facebook</a>.
-				</p>
-			</div>
-		</section>
+   </footer> <!-- Footer End-->
 
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 
-		<section class="row">
-			<div class="col-full">
-				<p>
-					© 2015 - This website is a copyrighted work of <a href="http://www.ericdfournier.com">Eric Daniel Fournier</a>
-				</p>
-			</div>
-		</section>
- 
-	</div>
-
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script>
-	if (!window.jQuery) 
-	{
-	    document.write('<script src="js/vendor/jquery.1.11.min.js"><\/script>');
-	}
-	</script>
-
-	<script src="js/vendor/jquery.fluidbox.min.js"></script>
-	<script src="js/main.js"></script>
-
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'YOUR_GOOGLE_ANALYTICS_ID', 'auto');
-	  ga('send', 'pageview');
-
-	</script>
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
 
 </body>
-</html>
 
+</html>
