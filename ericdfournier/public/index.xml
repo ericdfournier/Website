@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eric Daniel Fournier</title>
+    <link>https://www.ericdfournier.com/</link>
+    <description>Recent content on Eric Daniel Fournier</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 15 Feb 2019 08:45:02 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.ericdfournier.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DAC Community Energy System Transformations</title>
+      <link>https://www.ericdfournier.com/projects/cec-natural-gas/</link>
+      <pubDate>Fri, 15 Feb 2019 08:45:02 -0700</pubDate>
+      
+      <guid>https://www.ericdfournier.com/projects/cec-natural-gas/</guid>
+      <description>Recently I began work as the lead technical research scientist on a new CEC grant funded project investigating the potential co-benefits from the pursuit of various different energy related climate action policies within Southern California Disadvantaged Communities.
+This page will be updated with information regarding my work on this project as it unfolds.</description>
+    </item>
+    
+    <item>
+      <title>New Website Design</title>
+      <link>https://www.ericdfournier.com/posts/new-website-design/</link>
+      <pubDate>Fri, 15 Feb 2019 08:45:02 -0700</pubDate>
+      
+      <guid>https://www.ericdfournier.com/posts/new-website-design/</guid>
+      <description>An Explanation Periodically I find occasion to revisit the design and hosting architecture of my personal website.
+The previous version was a slick as goose-shit, single page sort of deal. It was built off of a template that was probably designed for a startup&amp;rsquo;s website or some creative person&amp;rsquo;s photo portfolio.
+I got to thinking about how such a flashy design, while nice, doesn&amp;rsquo;t really reflect the type of programming work that I do in my day to day life.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://www.ericdfournier.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ericdfournier.com/about/</guid>
+      <description>Education Loyola High School of Los Angeles  (2000-2004) Los Angeles, California, US  High School
+School for International Training  (2007) Stone Town, Zanzibar, Tanzania  Coastal Ecology Field Research Program
+Bucknell University  (2004-2008) Lewisburg, Pennsylvania, US Bachelor of Science in Environmental Science
+Yale School of Forestry and Environmental Studies  (2008-2010) New Haven, Connecticut, US Master of Science in Environmental Science
+University of California at Santa Barbara  (2013-2014) Santa Barbara, California, US Master of Arts in Geographic Information Science</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://www.ericdfournier.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ericdfournier.com/contact/</guid>
+      <description>Some Advice Please don&amp;rsquo;t try to email me. Email is very useful for people whose job it is to stay on top of things. However, it is unbearably distracting for people, like me, whose job it is to get to the bottom of them.
+If you manage to find my phone number somewhere then I guess you can go ahead and give that a shot. Although, I must admit that I have a tendency to not pick up if I don&amp;rsquo;t recognize the caller.</description>
+    </item>
+    
+  </channel>
+</rss>

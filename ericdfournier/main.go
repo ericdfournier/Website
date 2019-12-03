@@ -1,14 +1,16 @@
 package main
 
 import (
-  "log"
-  "net/http"
+	"google.golang.org/appengine"
+	"log"
+	"net/http"
 )
 
 func main() {
-  fs := http.FileServer(http.Dir("static"))
-  http.Handle("/static/", http.StripPrefix("/static/", fs))
-
-  log.Println("Listening...")
-  http.ListenAndServe(":3000", nil)
+	port := ":8080"
+	root := http.Dir("public")
+	handler := http.FileServer(root)
+	http.Handle("/", handler)
+	log.Fatal(http.ListenAndServe(port, nil))
+	appengine.Main()
 }

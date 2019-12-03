@@ -4,8 +4,8 @@ DESCRIPTION:
 
 DEVELOPMENT PLATFORM:
 
-- Operating System: Mac OS X Version: 10.0.1 Build: 13B42
-- Browser: Google Chrome Version: 32.0.1700.102
+- Operating System: macOS High Sierra Version: 10.13.3 Build: 17D47
+- Browser: Google Chrome Version 64.0.3282.140 (Official Build) (64-bit) 
 
 DEPENDENCIES:
 
