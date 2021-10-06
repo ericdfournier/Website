@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Eric Daniel Fournier</title>
@@ -6,19 +6,49 @@
     <description>Recent content in Projects on Eric Daniel Fournier</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 15 Feb 2019 08:45:02 -0700</lastBuildDate>
-    
-	<atom:link href="https://www.ericdfournier.com/projects/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Mon, 16 Mar 2020 08:45:02 -0700</lastBuildDate><atom:link href="https://www.ericdfournier.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Community Solar Prioritization Tool</title>
+      <link>https://www.ericdfournier.com/projects/sgc-solar-pt/</link>
+      <pubDate>Mon, 16 Mar 2020 08:45:02 -0700</pubDate>
+      
+      <guid>https://www.ericdfournier.com/projects/sgc-solar-pt/</guid>
+      <description>Status Active
+Background TBA
+Methods TBA
+Results TBA</description>
+    </item>
     
     <item>
-      <title>DAC Community Energy System Transformations</title>
+      <title>Advanced Energy Communities - Phase II Implementation</title>
+      <link>https://www.ericdfournier.com/projects/cec-aec-ii/</link>
+      <pubDate>Wed, 11 Mar 2020 08:45:02 -0700</pubDate>
+      
+      <guid>https://www.ericdfournier.com/projects/cec-aec-ii/</guid>
+      <description>Status Active
+Background Our group is part of a team that was recently awarded a new grant from CEC to implement a plan which we developed to pilot the development of an &amp;ldquo;Advanced Energy Community.&amp;rdquo; We anticipate this grant will be authorized soon. As the work evolves updates will be posted here describing the progress of the work.
+Methods TBA
+Results TBA</description>
+    </item>
+    
+    <item>
+      <title>Disadvantaged Community Energy System Transformations</title>
       <link>https://www.ericdfournier.com/projects/cec-natural-gas/</link>
       <pubDate>Fri, 15 Feb 2019 08:45:02 -0700</pubDate>
       
       <guid>https://www.ericdfournier.com/projects/cec-natural-gas/</guid>
-      <description>Recently I began work as the lead technical research scientist on a new CEC grant funded project investigating the potential co-benefits from the pursuit of various different energy related climate action policies within Southern California Disadvantaged Communities.
-This page will be updated with information regarding my work on this project as it unfolds.</description>
+      <description>Status Active
+Background Our center has been funded to work on this project under a grant from the California Energy Commission. It&amp;rsquo;s actually quite a unique and interesting project. At the most basic level, it is concerned with understanding the different categories of potential benefits that might be associated with the electrification of the residential energy system. What does that mean? Well, we are (fairly) confident that removing natural gas appliances from homes and replacing them with more efficient, electric versions, will benefit the climate system in terms of reduced greenhouse gas emissions.</description>
+    </item>
+    
+    <item>
+      <title>Advanced Energy Communities - Phase I Planning</title>
+      <link>https://www.ericdfournier.com/projects/cec-aec-i/</link>
+      <pubDate>Tue, 01 Jan 2019 08:45:02 -0700</pubDate>
+      
+      <guid>https://www.ericdfournier.com/projects/cec-aec-i/</guid>
+      <description>Status Completed
+Background Our group at the California Center for Sutainable Communities was awarded a grant from the California Energy Commission to develop a comprehensive plan developing an &amp;ldquo;Advanced Energy Community&amp;rdquo; within a disadvantaged portion of Southern California. As part of this project we partnered with team members from The Energy Coalition, a not-for-profit implementer of energy efficiency upgrade programs, and Active San Gabriel Valley, a community based organization which conducts outreach events and engagement activities around the issues of energy, public health, and sustainable transportation solutions.</description>
     </item>
     
   </channel>

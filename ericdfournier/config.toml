@@ -5,7 +5,7 @@ theme = "hugo-coder"
 
 languagecode = "en"
 
-paginate = 10
+paginate = 100
 canonifyurls = true
 
 pygmentsstyle = "b2"
@@ -16,7 +16,7 @@ pygmentscodefencesguesssyntax = true
     author = "Eric Daniel Fournier"
     description = "Eric Daniel Fournier's personal website"
     keywords = "scientist, environment, data"
-    info = "Environmental Data Scientist"
+    info = "Environmental Scientist"
     avatarurl = "images/avatar.png"
     footercontent = ""
 
@@ -39,16 +39,26 @@ pygmentscodefencesguesssyntax = true
     name = "LinkedIn"
     icon = "fab fa-linkedin"
     weight = 2
-    url = "https://www.linkedin.com/in/ericdfournier/"
+    url = "https://www.linkedin.com/in/eric-fournier-17b26324/"
+[[params.social]]
+	name = "Google"
+	icon = "fab fa-google"
+	weight = 3
+	url = "https://scholar.google.com/citations?user=GVp4mQcAAAAJ&hl=en"
+[[params.social]]
+	name = "Gitlab"
+	icon = "fab fa-gitlab"
+	weight = 4
+	url = "https://gitlab.com/ericdfournier/"
 
 [[menu.main]]
-    name = "Blog"
-    weight = 1
-    url  = "/posts/"
-[[menu.main]]
     name = "About"
-    weight = 2
+    weight = 1
     url = "/about/"
+[[menu.main]]
+    name = "Papers"
+    weight = 2
+    url  = "/papers/"
 [[menu.main]]
     name = "Projects"
     weight = 3
@@ -66,7 +76,7 @@ pygmentscodefencesguesssyntax = true
         # You can configure the theme parameter for each language.
         [languages.en.params]
         author = "Eric Daniel Fournier"
-        info = "Environmental Data Scientist"
+        info = "Environmental Scientist"
         description = "Eric Daniel Fournier's personal website"
         keywords = "scientist, environment, data"
 
@@ -78,10 +88,10 @@ pygmentscodefencesguesssyntax = true
         url = "/about/"
 
         [[languages.en.menu.main]]
-        name = "Blog"
+        name = "Papers"
         weight = 2
-        url = "/posts/"
-
+        url = "/papers/"
+		
         [[languages.en.menu.main]]
         name = "Projects"
         weight = 3

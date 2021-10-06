@@ -1,51 +1,70 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://www.ericdfournier.com/projects/cec-natural-gas/</loc>
-    <lastmod>2019-02-15T08:45:02-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.ericdfournier.com/posts/new-website-design/</loc>
-    <lastmod>2019-02-15T08:45:02-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.ericdfournier.com/about/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.ericdfournier.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ericdfournier.com/contact/</loc>
-  </url>
-  
   <url>
     <loc>https://www.ericdfournier.com/</loc>
-    <lastmod>2019-02-15T08:45:02-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ericdfournier.com/posts/</loc>
-    <lastmod>2019-02-15T08:45:02-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+    <lastmod>2020-11-18T08:45:02-07:00</lastmod>
+  </url><url>
+    <loc>https://www.ericdfournier.com/papers/implications-of-the-timing-of-gas-use/</loc>
+    <lastmod>2020-11-18T08:45:02-07:00</lastmod>
+  </url><url>
+    <loc>https://www.ericdfournier.com/papers/</loc>
+    <lastmod>2020-11-18T08:45:02-07:00</lastmod>
+  </url><url>
+    <loc>https://www.ericdfournier.com/papers/data-privacy-aggregation/</loc>
+    <lastmod>2020-08-02T08:45:02-07:00</lastmod>
+  </url><url>
+    <loc>https://www.ericdfournier.com/papers/energy-sufficiency/</loc>
+    <lastmod>2020-06-11T08:45:02-07:00</lastmod>
+  </url><url>
+    <loc>https://www.ericdfournier.com/projects/sgc-solar-pt/</loc>
+    <lastmod>2020-03-16T08:45:02-07:00</lastmod>
+  </url><url>
+    <loc>https://www.ericdfournier.com/papers/net-solar-potential/</loc>
+    <lastmod>2020-03-16T08:45:02-07:00</lastmod>
+  </url><url>
     <loc>https://www.ericdfournier.com/projects/</loc>
+    <lastmod>2020-03-16T08:45:02-07:00</lastmod>
+  </url><url>
+    <loc>https://www.ericdfournier.com/projects/cec-aec-ii/</loc>
+    <lastmod>2020-03-11T08:45:02-07:00</lastmod>
+  </url><url>
+    <loc>https://www.ericdfournier.com/papers/energy-for-water-use-in-la/</loc>
+    <lastmod>2020-01-10T08:45:02-07:00</lastmod>
+  </url><url>
+    <loc>https://www.ericdfournier.com/papers/grid-vulnerability-to-extreme-heat/</loc>
+    <lastmod>2019-05-01T08:45:02-07:00</lastmod>
+  </url><url>
+    <loc>https://www.ericdfournier.com/papers/home-size-growth-and-energy-usage/</loc>
+    <lastmod>2019-04-15T08:45:02-07:00</lastmod>
+  </url><url>
+    <loc>https://www.ericdfournier.com/projects/cec-natural-gas/</loc>
     <lastmod>2019-02-15T08:45:02-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://www.ericdfournier.com/papers/forecasting-peak-electricity-demand/</loc>
+    <lastmod>2019-02-15T08:45:02-07:00</lastmod>
+  </url><url>
+    <loc>https://www.ericdfournier.com/projects/cec-aec-i/</loc>
+    <lastmod>2019-01-01T08:45:02-07:00</lastmod>
+  </url><url>
+    <loc>https://www.ericdfournier.com/papers/parallel-genetic-algorithms-for-locating-optimal-corridors/</loc>
+    <lastmod>2016-07-01T08:45:02-07:00</lastmod>
+  </url><url>
+    <loc>https://www.ericdfournier.com/papers/life-cycle-energy-water-efficiency-of-treated-water-reuse/</loc>
+    <lastmod>2016-02-16T08:45:02-07:00</lastmod>
+  </url><url>
+    <loc>https://www.ericdfournier.com/papers/minimizing-impacts-to-ecosystem-services-from-gas-well-placement/</loc>
+    <lastmod>2015-06-01T08:45:02-07:00</lastmod>
+  </url><url>
+    <loc>https://www.ericdfournier.com/papers/spectroscopic-investigation-of-iron-rich-clays/</loc>
+    <lastmod>2007-12-05T08:45:02-07:00</lastmod>
+  </url><url>
+    <loc>https://www.ericdfournier.com/about/</loc>
+  </url><url>
+    <loc>https://www.ericdfournier.com/categories/</loc>
+  </url><url>
+    <loc>https://www.ericdfournier.com/contact/</loc>
+  </url><url>
     <loc>https://www.ericdfournier.com/tags/</loc>
-    <priority>0</priority>
   </url>
-  
 </urlset>

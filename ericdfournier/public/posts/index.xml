@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Eric Daniel Fournier</title>
@@ -6,17 +6,28 @@
     <description>Recent content in Posts on Eric Daniel Fournier</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 15 Feb 2019 08:45:02 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 24 Dec 2019 08:45:02 -0700</lastBuildDate>
     
 	<atom:link href="https://www.ericdfournier.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>New Website Design</title>
-      <link>https://www.ericdfournier.com/posts/new-website-design/</link>
+      <title>New Paper: Energy Use for Water in LA</title>
+      <link>https://www.ericdfournier.com/posts/paper-energy-for-water-in-la/</link>
+      <pubDate>Tue, 24 Dec 2019 08:45:02 -0700</pubDate>
+      
+      <guid>https://www.ericdfournier.com/posts/paper-energy-for-water-in-la/</guid>
+      <description>Title Energy use for urban water management by utilities and households in Los Angeles
+Authors Erik Porse, Kathryn B Mika, Alvar Escriva-Bou, Eric Fournier, Kelly T Sanders, Edward Spang, Jennifer R Stokes-Draut, Felica Federico, Mark Gold and Stephanie Pincetl
+Abstract Reducing energy consumption for urban water management may yield economic and environmental benefits. Few studies provide comprehensive assessments of energy needs for urban water sectors that include both utility operations and household use.</description>
+    </item>
+    
+    <item>
+      <title>Website Redesign</title>
+      <link>https://www.ericdfournier.com/posts/website-redesign/</link>
       <pubDate>Fri, 15 Feb 2019 08:45:02 -0700</pubDate>
       
-      <guid>https://www.ericdfournier.com/posts/new-website-design/</guid>
+      <guid>https://www.ericdfournier.com/posts/website-redesign/</guid>
       <description>An Explanation Periodically I find occasion to revisit the design and hosting architecture of my personal website.
 The previous version was a slick as goose-shit, single page sort of deal. It was built off of a template that was probably designed for a startup&amp;rsquo;s website or some creative person&amp;rsquo;s photo portfolio.
 I got to thinking about how such a flashy design, while nice, doesn&amp;rsquo;t really reflect the type of programming work that I do in my day to day life.</description>
