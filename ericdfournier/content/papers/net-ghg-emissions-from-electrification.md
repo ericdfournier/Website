@@ -1,5 +1,5 @@
 ---
-title: "Net Ghg Emissions From Electrification"
+title: "Net GHG Emissions and Air Quality Impacts From Electrification in Disadvantaged Communities"
 date: 2022-09-29T08:38:22-07:00
 draft: false
 ---
