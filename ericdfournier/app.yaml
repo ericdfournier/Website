@@ -1,3 +1,5 @@
+app_engine_apis: true
+
 runtime: go116
 
 handlers:
