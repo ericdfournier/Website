@@ -6,7 +6,7 @@ draft: false
 
 # Status
 
-Active
+Completed
 
 # Background
 
