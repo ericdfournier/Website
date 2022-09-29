@@ -52,7 +52,7 @@ Post-Doctoral Research Fellow
 Santa Barbara, California, USA  
 Graduate Student Researcher  
 
-[Perkings & Will, Architecture and Design](https://perkinswill.com/)  
+[Perkins & Will, Architecture and Design](https://perkinswill.com/)  
 2009-2010  
 Atlanta, Georgia, USA  
 Sustainable Laboratory Design Intern
